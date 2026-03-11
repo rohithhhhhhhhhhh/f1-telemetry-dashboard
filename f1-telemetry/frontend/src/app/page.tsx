@@ -8,11 +8,7 @@ import { getSchedule, getDrivers, getTelemetry, getSessionResults,
 
 import SessionSelector from "@/components/SessionSelector";
 import DriverCompareHero from "@/components/DriverCompareHero";
-import TelemetryCharts from "@/components/TelemetryCharts";
-import TrackMap from "@/components/TrackMap";
-import LapTable from "@/components/LapTable";
-import WeatherPanel from "@/components/WeatherPanel";
-import ResultsTable from "@/components/ResultsTable";
+import { TelemetryCharts, TrackMap, LapTable, WeatherPanel, ResultsTable } from "@/components/index";
 
 export default function Dashboard() {
   // ── Selection state ────────────────────────────────────────────────────────
