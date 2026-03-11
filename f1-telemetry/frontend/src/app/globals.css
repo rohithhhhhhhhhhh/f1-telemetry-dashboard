@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* { box-sizing: border-box; }
+
+body {
+  background: #050505;
+  color: #fff;
+  font-family: 'Courier New', monospace;
+}
+
+::-webkit-scrollbar { width: 4px; height: 4px; }
+::-webkit-scrollbar-track { background: #080808; }
+::-webkit-scrollbar-thumb { background: #1a1a1a; border-radius: 2px; }
+
+.font-orbitron { font-family: var(--font-orbitron), monospace; }
